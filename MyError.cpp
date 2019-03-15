@@ -7,7 +7,7 @@ using std::endl;
 using std::string;
 
 // ∂®“Â¥ÌŒÛerrno
-ErrorNo myerrno = ErrorNo::clear;
+extern ErrorNo myerrno = ErrorNo::clear;
 
 void MyPerror(const string & str){
 	switch (myerrno)

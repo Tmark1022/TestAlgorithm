@@ -10,5 +10,7 @@ enum class ErrorNo{
 	bad_param,			// ´«²ÎÓĞÎó
 };
 
+extern ErrorNo myerrno;
+
 void MyPerror(const std::string & str);
 #endif

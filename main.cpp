@@ -14,7 +14,7 @@ int main(int argc, char * argv[]){
 	all.shrink_to_fit();
 
 	for (VEC * elem : all){
-		SelectSort(*elem);
+		merge_sort(*elem, SmallCmp);
 		PrintVec(*elem);
 	}
 	return 0;

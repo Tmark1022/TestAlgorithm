@@ -1,7 +1,7 @@
 #ifndef SORT_H
 #define SORT_H
 #include<vector>
-https://www.pornhub.com/view_video.php?viewkey=ph5dae71a549a46#1
+
 typedef std::vector<int> VEC;
 
 // 排序算法全部基于容器类型vector<int>
